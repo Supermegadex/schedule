@@ -1,0 +1,22 @@
+{
+  "hello dolly": {
+    "title": "Hello, Dolly!",
+    "schedule": [
+      {
+        "date": "9/10",
+        "from": "3:30",
+        "to": "6:30",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "Stage Managers"
+          },
+          {
+            "time": ""
+          }
+        ]
+      }
+    ]
+  }
+}
