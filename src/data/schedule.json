@@ -13,7 +13,123 @@
             "people": "Stage Managers"
           },
           {
-            "time": ""
+            "from": "4:00",
+            "to": "4:30",
+            "people": "Dolly, Ambrose & Chorus (except featured dancers and principals not in this scene).",
+            "acting": "Block Act I, Scene 1"
+          },
+          {
+            "from": "4:30",
+            "to": "5:00",
+            "acting": "Block Act I, Scene 2",
+            "people": "Horace, Ermengarde, Cornelius, Barnaby, Dolly, Ambrose (other guys will be added into the scene when we choreograph It Takes A Woman.)"
+          },
+          {
+            "from": "5:00",
+            "to": "6:30",
+            "people": "Minnie, Irene, Cornelius, Barnaby, Horace, Dolly, Mrs. Rose (we will block Parade later).",
+            "acting": "Block Act I, Scene 3"
+          }
+        ]
+      },
+      {
+        "date": "9/11",
+        "from": "3:30",
+        "to": "6:30",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "music": "Review all songs",
+            "people": "Dolly"
+          },
+          {
+            "from": "4:00",
+            "to": "4:30",
+            "acting": "Block Act II, Scene 1",
+            "people": "Irene, Minnie, Cornelius, Barnaby, Ermengarde, Ambrose, Ernestina, Horace."
+          },
+          {
+            "from": "4:30",
+            "to": "6:30",
+            "acting": "Block Act II, Scene 2",
+            "people": "Rudolph, Stanley, 1st Cook, 2nd Cook,  Irene, Minnie, Cornelius, Barnaby, Ermengarde, Ambrose, Ernestina, Horace. Police (Isaac and Tony)."
+          }
+        ]
+      },
+      {
+        "date": "9/12",
+        "from": "4:00",
+        "to": "6:00",
+        "times": [
+          {
+            "from": "4:00",
+            "to": "4:45",
+            "acting": "Block Act II, Scene 3 ",
+            "people": "Judge, Clerk, Policeman, Irene, Minnie, Cornelius, Barnaby, Dolly, Ermengarde, Ambrose, Ernestina, Horace, Rudolph. "
+          },
+          {
+            "from": "4:45",
+            "to": "5:30",
+            "acting": "Block Act II, Scene 4 ",
+            "people": "Horace, Cornelius, Barnaby, Irene, Dolly, Ambrose, Ermengarde, Max Doocy (Paper) "
+          },
+          {
+            "from": "5:30",
+            "to": "6:00",
+            "acting": "Table talk with Principals ",
+            "people": "Irene, Minnie, Cornelius, Barnaby, Ermengarde, Dolly, Ambrose, Ernestina, Horace. "
+          }
+        ]
+      },
+      {
+        "date": "9/13",
+        "from": "3:30",
+        "to": "6:15",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "music": "Opening & Put on Your Sunday Clothes",
+            "people": "ALL"
+          },
+          {
+            "from": "4:00",
+            "to": "6:15",
+            "acting": "Review/Refine Act I",
+            "people": "ALL"
+          }
+        ]
+      },
+      {
+        "date": "9/14",
+        "from": "3:30",
+        "to": "6:00",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "music": "It Takes a Woman & Hello Dolly",
+            "people": "Men"
+          },
+          {
+            "from": "4:00",
+            "to": "6:00",
+            "acting": "Review/Refine Act II",
+            "people": "Everyone in Act II"
+          }
+        ]
+      },
+      {
+        "date": "9/17",
+        "from": "3:30",
+        "to": "6:30",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "6:30",
+            "acting": "Review/Refine Show",
+            "people": "ALL"
           }
         ]
       }
