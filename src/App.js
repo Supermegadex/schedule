@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     const classes = this.props.classes;
     return (
-      <div className="App">
+      <div className="App"> 
         <TitleBar title={this.state.play.title}/>
         <main className="content">
           <Schedule play={this.state.play}/>

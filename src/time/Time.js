@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
-import {IconButton, List, ListItem, ListItemText} from "material-ui";
+import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
 import classnames from "classnames";
 
 const styles = theme => ({
@@ -43,36 +43,43 @@ class Day extends Component {
     this.setState({ expanded: !this.state.expanded });
   };
 
-  getActing() {
-    if (this.props.t.acting) {
-      return <ListItemText primary={this.props.t.acting} secondary="Acting" />
-    }
-    else return false;
-  }
+  // getActing() {
+  //   if (this.props.t.acting) {
+  //     return <ListItemText primary={this.props.t.acting} secondary="Acting" />
+  //   }
+  //   else return false;
+  // }
 
-  getDancing() {
-    if (this.props.t.dancing) {
-      return <ListItemText primary={this.props.t.dancing} secondary="Dancing" />
-    }
-    else return false;
-  }
+  // getDancing() {
+  //   if (this.props.t.dancing) {
+  //     return <ListItemText primary={this.props.t.dancing} secondary="Dancing" />
+  //   }
+  //   else return false;
+  // }
 
-  getMusic() {
-    if (this.props.t.music) {
-      return <ListItemText primary={this.props.t.music} secondary="Dancing" />
-    }
-    else return false;
-  }
+  // getMusic() {
+  //   if (this.props.t.music) {
+  //     return <ListItemText primary={this.props.t.music} secondary="Dancing" />
+  //   }
+  //   else return false;
+  // }
 
   render() {
     return (
-      <ListItem button>
-        <ListItemText primary={this.props.t.from} />
-        {this.getActing()}
-        {this.getDancing()}
-        {this.getMusic()}
-        <ListItemText className={classnames(this.classes.min, this.classes.people)} primary={this.props.t.people} />
-      </ListItem>
+      <TableRow>
+        <TableCell>{this.props.t.from}</TableCell>
+        <TableCell>{this.props.t.people}</TableCell>
+        <TableCell>{this.props.t.acting}</TableCell>
+        <TableCell>{this.props.t.dancing}</TableCell>
+        <TableCell>{this.props.t.music}</TableCell>
+      </TableRow>
+      // <ListItem button>
+      //   <ListItemText primary={this.props.t.from} />
+      //   {this.getActing()}
+      //   {this.getDancing()}
+      //   {this.getMusic()}
+      //   <ListItemText className={classnames(this.classes.min, this.classes.people)} primary={this.props.t.people} />
+      // </ListItem>
     );
   }
 }

@@ -132,6 +132,20 @@
             "people": "ALL"
           }
         ]
+      },
+      {
+        "date": "10/8",
+        "from": "?",
+        "to": "?",
+        "homecoming": true,
+        "times": [
+          {
+            "from": "3:30",
+            "to": "6:30",
+            "acting": "Review/Refine Show",
+            "people": "ALL"
+          }
+        ]
       }
     ]
   }

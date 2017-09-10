@@ -4,14 +4,15 @@ import { withStyles } from 'material-ui/styles';
 import Collapse from 'material-ui/transitions/Collapse';
 import Card, { CardActions, CardContent, CardHeader } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
-import {IconButton, List, ListItem, ListItemText} from "material-ui";
+import { IconButton } from "material-ui";
+import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
 import classnames from "classnames";
 import ExpandMoreIcon from 'material-ui-icons/ExpandMore';
 import Time from "../time/Time";
 
 const styles = theme => ({
   card: {
-    marginBottom: 30
+    marginBottom: theme.spacingUnit
   },
   media: {
     height: 194,
@@ -28,17 +29,25 @@ const styles = theme => ({
   flexGrow: {
     flex: '1 1 auto',
   },
+  table: {
+    overflowX: "auto"
+  }
 });
 
 class Day extends Component {
   constructor(props) {
-    super()
+    super();
   }
 
   state = { expanded: false };
 
   handleExpandClick = () => {
-    this.setState({ expanded: !this.state.expanded });
+    if (this.props.day.homecoming) {
+      this.props.handleOpen();
+    }
+    else {
+      this.setState({ expanded: !this.state.expanded });
+    }  
   };
 
   render() {
@@ -50,7 +59,6 @@ class Day extends Component {
             subheader={this.props.day.from + " - " + this.props.day.to}
         />
         <CardContent>
-
         </CardContent>
         <CardActions disableActionSpacing>
           {/*<IconButton aria-label="Add to favorites">*/}
@@ -72,14 +80,25 @@ class Day extends Component {
           </IconButton>
         </CardActions>
         <Collapse in={this.state.expanded} transitionDuration="auto" unmountOnExit>
-          <CardContent>
-            <List>
+          <CardContent className={classes.table}>
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell>Time</TableCell>
+                  <TableCell>People</TableCell>
+                  <TableCell>Acting</TableCell>
+                  <TableCell>Dancing</TableCell>
+                  <TableCell>Singing</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
               {this.props.day.times.map((d, i) => {
                 return (
                     <Time t={d} key={i}/>
                 )
-              }) }
-            </List>
+              })}
+              </TableBody>  
+            </Table>
           </CardContent>
         </Collapse>
       </Card>
