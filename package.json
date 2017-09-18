@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "GPLv3",
   "description": "A framework for public schedules.",
-  "homepage": "https://supermegadex.cf/schedule",
+  "homepage": "https://schedule.supermegadex.cf",
   "private": true,
   "dependencies": {
     "classnames": "latest",
