@@ -132,6 +132,112 @@
             "people": "ALL"
           }
         ]
+      },
+      {
+        "date": "9/18",
+        "from": "3:30",
+        "to": "6:30",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "6:30",
+            "acting": "Something",
+            "people": "ALL"
+          }
+        ]
+      },
+      {
+        "date": "9/19",
+        "from": "3:30",
+        "to": "6:00",
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "Cornelius, Barnaby, Irene, Minnie, Ambrose, Ermengarde, Dolly",
+            "acting": "",
+            "dancing": "Blocking for Sunday Clothes.",
+            "music": ""
+          },
+          {
+            "from": "4:00",
+            "to": "5:00",
+            "people": "ENTIRE CAST, including Featured Dancers",
+            "dancing": "“Opening Act One”, “Put On Your Sunday Clothes”, “Before The Parade Passes By”"
+          },
+          {
+            "from": "5:00",
+            "to": "6:00",
+            "people": "ALL MEN except Ambrose",
+            "dancing": "“It Takes A Woman”"
+          }
+        ]
+      },
+      {
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "ALL",
+            "acting": "",
+            "dancing": "",
+            "music": "“Before the Parade Passes By”"
+          },
+          {
+            "from": "4:00",
+            "to": "5:00",
+            "people": "ENTIRE CAST, including Featured Dancers",
+            "dancing": "“Opening Act One”, “Put On Your Sunday Clothes”, “Before The Parade Passes By”"
+          },
+          {
+            "from": "5:00",
+            "to": "5:45",
+            "people": "“It Takes A Woman”",
+            "dancing": "ALL MEN except Ambrose"
+          },
+          {
+            "from": "5:45",
+            "to": "6:30",
+            "people": "Dolly, Horace, Barnaby, Cornelius, Irene, Minnie",
+            "dancing": "“Motherhood March”"
+          }
+        ],
+        "date": "9/20",
+        "from": "3:30",
+        "to": "6:30"
+      },
+      {
+        "times": [
+          {
+            "from": "4:00",
+            "to": "4:45",
+            "people": "ENTIRE CAST, including Featured Dancers",
+            "acting": "",
+            "dancing": "“Opening Act One”, “Put On Your Sunday Clothes”, “Before The Parade Passes By”, “Motherhood March”",
+            "music": ""
+          },
+          {
+            "from": "4:45",
+            "to": "5:15",
+            "people": "ALL MEN except Ambrose",
+            "dancing": "“It Takes A Woman”"
+          },
+          {
+            "from": "5:15",
+            "to": "5:45",
+            "people": "Dolly, Ambrose",
+            "dancing": "“I Put My Hand In”"
+          },
+          {
+            "from": "5:45",
+            "to": "6:30",
+            "people": "Dolly, Barnaby, Cornelius, Irene, Minnie, Cecilia Fuller, Anna Hoffman, Rebecca Townley, Megan Rutten, Max Doocy, Will Minshall, Matthew LeMar, Isaac White",
+            "dancing": "“Dancing”"
+          }
+        ],
+        "date": "9/21",
+        "from": "4:00",
+        "to": "6:30"
       }
     ]
   }
