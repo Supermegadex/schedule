@@ -3,150 +3,6 @@
     "title": "Hello, Dolly!",
     "schedule": [
       {
-        "date": "9/10",
-        "from": "3:30",
-        "to": "6:30",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "4:00",
-            "people": "Stage Managers"
-          },
-          {
-            "from": "4:00",
-            "to": "4:30",
-            "people": "Dolly, Ambrose & Chorus (except featured dancers and principals not in this scene).",
-            "acting": "Block Act I, Scene 1"
-          },
-          {
-            "from": "4:30",
-            "to": "5:00",
-            "acting": "Block Act I, Scene 2",
-            "people": "Horace, Ermengarde, Cornelius, Barnaby, Dolly, Ambrose (other guys will be added into the scene when we choreograph It Takes A Woman.)"
-          },
-          {
-            "from": "5:00",
-            "to": "6:30",
-            "people": "Minnie, Irene, Cornelius, Barnaby, Horace, Dolly, Mrs. Rose (we will block Parade later).",
-            "acting": "Block Act I, Scene 3"
-          }
-        ]
-      },
-      {
-        "date": "9/11",
-        "from": "3:30",
-        "to": "6:30",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "4:00",
-            "music": "Review all songs",
-            "people": "Dolly"
-          },
-          {
-            "from": "4:00",
-            "to": "4:30",
-            "acting": "Block Act II, Scene 1",
-            "people": "Irene, Minnie, Cornelius, Barnaby, Ermengarde, Ambrose, Ernestina, Horace."
-          },
-          {
-            "from": "4:30",
-            "to": "6:30",
-            "acting": "Block Act II, Scene 2",
-            "people": "Rudolph, Stanley, 1st Cook, 2nd Cook,  Irene, Minnie, Cornelius, Barnaby, Ermengarde, Ambrose, Ernestina, Horace. Police (Isaac and Tony)."
-          }
-        ]
-      },
-      {
-        "date": "9/12",
-        "from": "4:00",
-        "to": "6:00",
-        "times": [
-          {
-            "from": "4:00",
-            "to": "4:45",
-            "acting": "Block Act II, Scene 3 ",
-            "people": "Judge, Clerk, Policeman, Irene, Minnie, Cornelius, Barnaby, Dolly, Ermengarde, Ambrose, Ernestina, Horace, Rudolph. "
-          },
-          {
-            "from": "4:45",
-            "to": "5:30",
-            "acting": "Block Act II, Scene 4 ",
-            "people": "Horace, Cornelius, Barnaby, Irene, Dolly, Ambrose, Ermengarde, Max Doocy (Paper) "
-          },
-          {
-            "from": "5:30",
-            "to": "6:00",
-            "acting": "Table talk with Principals ",
-            "people": "Irene, Minnie, Cornelius, Barnaby, Ermengarde, Dolly, Ambrose, Ernestina, Horace. "
-          }
-        ]
-      },
-      {
-        "date": "9/13",
-        "from": "3:30",
-        "to": "6:15",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "4:00",
-            "music": "Opening & Put on Your Sunday Clothes",
-            "people": "ALL"
-          },
-          {
-            "from": "4:00",
-            "to": "6:15",
-            "acting": "Review/Refine Act I",
-            "people": "ALL"
-          }
-        ]
-      },
-      {
-        "date": "9/14",
-        "from": "3:30",
-        "to": "6:00",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "4:00",
-            "music": "It Takes a Woman & Hello Dolly",
-            "people": "Men"
-          },
-          {
-            "from": "4:00",
-            "to": "6:00",
-            "acting": "Review/Refine Act II",
-            "people": "Everyone in Act II"
-          }
-        ]
-      },
-      {
-        "date": "9/17",
-        "from": "3:30",
-        "to": "6:30",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "6:30",
-            "acting": "Review/Refine Show",
-            "people": "ALL"
-          }
-        ]
-      },
-      {
-        "date": "9/18",
-        "from": "3:30",
-        "to": "6:30",
-        "times": [
-          {
-            "from": "3:30",
-            "to": "6:30",
-            "acting": "Something",
-            "people": "ALL"
-          }
-        ]
-      },
-      {
         "date": "9/19",
         "from": "3:30",
         "to": "6:00",
@@ -238,6 +94,123 @@
         "date": "9/21",
         "from": "4:00",
         "to": "6:30"
+      },
+      {
+        "times": [
+          {
+            "from": "4:00",
+            "to": "4:45",
+            "people": "ENTIRE CAST, including Featured Dancers",
+            "acting": "",
+            "dancing": "“Opening Act One”, “Put On Your Sunday Clothes”, “Before The Parade Passes By”, “Motherhood March”",
+            "music": ""
+          },
+          {
+            "from": "4:45",
+            "to": "5:15",
+            "people": "ALL MEN except Ambrose",
+            "dancing": "“It Takes A Woman”"
+          },
+          {
+            "from": "5:15",
+            "to": "5:45",
+            "people": "Dolly, Ambrose",
+            "dancing": "“I Put My Hand In”"
+          },
+          {
+            "from": "5:45",
+            "to": "6:30",
+            "people": "Dolly, Barnaby, Cornelius, Irene, Minnie, Cecilia Fuller, Anna Hoffman, Rebecca Townley, Megan Rutten, Max Doocy, Will Minshall, Matthew LeMar, Isaac White",
+            "dancing": "“Dancing”"
+          }
+        ],
+        "date": "9/24",
+        "from": "4:00",
+        "to": "6:30"
+      },
+      {
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "Men and Dolly",
+            "acting": "",
+            "dancing": "",
+            "music": "\"Hello, Dolly!\""
+          },
+          {
+            "from": "4:00",
+            "to": "6:30",
+            "people": "Waiters, Rudolph, Featured Dancers, Irene, Minnie, Cornelius, Barnaby, Horace, Ernestina.",
+            "acting": "Rough-out Waiter’s Galop w/ props"
+          }
+        ],
+        "date": "9/25",
+        "from": "3:30",
+        "to": "6:30"
+      },
+      {
+        "times": [
+          {
+            "from": "4:00",
+            "to": "6:00",
+            "people": "**MEET IN MUSIC ROOM** Dolly, Horace, Cornelius, Barnaby, Minnie, Irene, Ambrose, Ermengarde",
+            "acting": "Work Scenes for Principals",
+            "dancing": "",
+            "music": ""
+          }
+        ],
+        "date": "9/26",
+        "from": "4:00",
+        "to": "6:00"
+      },
+      {
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "Chorus; Minnie, Irene, Cornelius, Barnaby",
+            "acting": "",
+            "dancing": "",
+            "music": "“It Only Takes A Moment” & “Elegance”& “Dancing”  "
+          },
+          {
+            "from": "4:00",
+            "to": "5:00",
+            "people": "All Guys, except Ambrose",
+            "acting": "It Takes A Woman. Work action in song."
+          },
+          {
+            "from": "5:00",
+            "to": "6:30",
+            "people": "Irene, Minnie, Dolly, Horace, Cornelius, Barnaby",
+            "acting": "Motherhood. Work action in song."
+          }
+        ],
+        "date": "9/27",
+        "from": "3:30",
+        "to": "6:30"
+      },
+      {
+        "times": [
+          {
+            "from": "3:30",
+            "to": "4:00",
+            "people": "Minnie, Irene, Cornelius, Barnaby. ",
+            "acting": "",
+            "dancing": "",
+            "music": "“Elegance” & “Dancing”"
+          },
+          {
+            "from": "4:00",
+            "to": "6:00",
+            "people": "Featured Dancers and, Horace, Dolly, Ermengarde, Ambrose, Cornelius, Barnaby, Irene, Minnie, Rudolph, Waiters, Max, Will, William, Isaac, Tony.",
+            "acting": "Stage Polka w/ dialogue to end of Act I pandemonium."
+          }
+        ],
+        "date": "9/28",
+        "from": "3:30",
+        "to": "6:00"
       }
     ]
   }
