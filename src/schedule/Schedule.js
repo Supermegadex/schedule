@@ -96,7 +96,7 @@ class Schedule extends Component {
 
   startConfetti = () => {
     this.setState({ confetti: true });
-  }
+  };
 
   render() {
     const classes = this.props.classes;
